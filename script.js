@@ -71,7 +71,15 @@ function generatePassword() {
         guaranteedPassword.push(randomizer(numChar))
       }; 
     
-    
+      for (var i = 0; i < passwordLength; i++){
+        var possibleChar = randomizer(possiblePassword)
+        password += possibleChar
+      };
+     
+      for (var i = 0; i < guaranteedPassword.length; i++){
+        password[i] = guaranteedPassword[i]
+      };
+      
      return password;
     }
 
