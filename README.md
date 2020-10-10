@@ -8,33 +8,28 @@
 - [Description](##-Description)
 - [Installation](##-Installation)
 - [Credits](##-Credits)
-- [Contributors](##-Contributors)
 - [License](##-License)
 
 ## Deployed site
 
 [Password Generator](https://enevarez-ops.github.io/passwordGenerator/)
-![gif for site](gif-link)
+![passwordGenerator](/images/passwordGenerator.gif)
 
 ## User Story
 
-What is the need for this website
+This website is a tool used to generate a random password for online safety. If I am a person looking for a secure password, I will go to this site to generate a password for me.
 
 ## Description
 
-Description of Website and what technologies were used
+Website created using JavaScript to generate a random password.
 
 ## Installation
 
-How to install and run app/website
-
-## Contributors
-
-who participating in building this project
+Run on default browser.
 
 ## Credits
 
-Credits for anything used to build site
+JavaScript, HTML, CSS
 
 ## License
 
