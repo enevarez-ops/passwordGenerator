@@ -51,10 +51,29 @@ function generatePassword() {
       numChoice === false){
         alert("YOU HAVE TO PICK AT LEAST ONE!!")
       };
-  
-  }
-
-
+      if(lowerChoice) {
+        possiblePassword = possiblePassword.concat(lowerCase)
+        guaranteedPassword.push(randomizer(lowerCase))
+      };
+    
+      if(upperChoice) {
+        possiblePassword = possiblePassword.concat(upperCase)
+        guaranteedPassword.push(randomizer(upperCase))
+      };
+    
+      if(specChoice) {
+        possiblePassword = possiblePassword.concat(specChar)
+        guaranteedPassword.push(randomizer(specChar))
+      };
+    
+      if(numChoice) {
+        possiblePassword = possiblePassword.concat(numChar)
+        guaranteedPassword.push(randomizer(numChar))
+      }; 
+    
+    
+     return password;
+    }
 
 
 
