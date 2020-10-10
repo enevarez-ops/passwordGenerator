@@ -37,7 +37,22 @@ function generatePassword() {
       return
     };
 
- 
+    var lowerChoice = confirm("Do you want a Lower Case character?");
+  
+    var upperChoice = confirm("Do you want an Upper Case character?");
+    
+    var specChoice = confirm("Do you want a Special character?");
+  
+    var numChoice = confirm("Do you want a Number character?");
+    
+    if (lowerChoice === false && 
+      upperChoice === false &&
+      specChoice === false &&
+      numChoice === false){
+        alert("YOU HAVE TO PICK AT LEAST ONE!!")
+      };
+  
+  }
 
 
 
